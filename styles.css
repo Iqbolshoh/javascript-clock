@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #08001f, #03197d);
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.container {
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock {
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 0, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(22px);
+}
+
+.container::before {
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #f41b75;
+    border-radius: 50%;
+    position: absolute;
+    left: -50px;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.container::after {
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #419aaf;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    bottom: -70px;
+    z-index: -1;
+}
+
+.clock span {
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hour::after {
+    content: 'Hours';
+}
+
+#min::after {
+    content: 'MINS';
+}
+
+#sec::after {
+    content: 'SECONDS';
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 270px;
+        height: 140px;
+    }
+
+    .container::before {
+        width: 105px;
+        height: 105px;
+        left: -40px;
+        bottom: 60px;
+    }
+
+    .container::after {
+        width: 105px;
+        height: 105px;
+        right: -40px;
+        bottom: -60px;
+    }
+
+    .clock span {
+        font-size: 45px;
+        width: 45px;
+    }
+
+    .clock span::after {
+        font-size: 12px;
+        bottom: -7px;
+        left: 55%;
+    }
+}
+
+@media (max-width: 330px) {
+    .container {
+        width: 240px;
+    }
+    .clock span {
+        font-size: 40px;
+        width: 40px;
+    }
+}
