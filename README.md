@@ -1,24 +1,22 @@
 # JavaScript Clock
 
-![JavaScript Clock Banner](./images/banner.png)
-
 This project is a simple digital clock implemented using HTML, CSS, and JavaScript. It displays the current time in hours, minutes, and seconds and updates every second.
+
+## Preview
+
+### Desktop
+
+![Desktop Preview](./images/desktop.png)
+
+### Mobile
+
+![Mobile Preview](./images/mobile.png)
 
 ## Features
 
 - **Live Clock:** Displays the current time and updates every second.
 - **Responsive Design:** Adjusts to different screen sizes.
 - **Modern Design:** Features a visually appealing clock face with gradients and shadows.
-
-## Screenshots
-
-### Desktop
-
-![JavaScript Clock Screenshot](./images/desktop.png)
-
-### Mobile
-
-![JavaScript Clock Screenshot](./images/mobile.png)
 
 ## Files
 
