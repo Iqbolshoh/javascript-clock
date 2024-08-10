@@ -63,6 +63,9 @@ To set up and run the JavaScript Clock on your local machine:
         alt="JavaScript">
 </div>
 
+## Contributing
+
+Feel free to submit pull requests or open issues if you have suggestions for improvements or encounter any problems.
 
 ## Connect with Me
 
