@@ -55,7 +55,7 @@ To set up and run the JavaScript Clock on your local machine:
 - **styles.css:** Styles the clock and provides a responsive layout.
 - **script.js:** Handles the clock logic, updating the time every second.
 
-## Technologies
+## Technologies Used
 
 <div style="display: flex; flex-wrap: wrap; gap: 5px;">
     <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
