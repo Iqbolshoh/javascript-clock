@@ -18,20 +18,6 @@ This project is a simple digital clock implemented using HTML, CSS, and JavaScri
 - **Responsive Design:** Adjusts to different screen sizes.
 - **Modern Design:** Features a visually appealing clock face with gradients and shadows.
 
-## Files
-
-- **index.html:** Contains the basic structure of the clock and links to the CSS and JavaScript files.
-- **styles.css:** Styles the clock, including layout, colors, and responsive design.
-- **script.js:** Contains the JavaScript code that updates the clock every second.
-
-## How to Use
-
-1. **Open the `index.html` File:**
-   - You can open the `index.html` file in any modern web browser to view the clock. Simply double-click the file or open it using your browser's "Open File" option.
-
-2. **View the Clock:**
-   - The clock will display the current time in hours, minutes, and seconds. It will automatically update every second.
-
 ## Installation
 
 To set up and run the JavaScript Clock on your local machine:
@@ -46,12 +32,6 @@ To set up and run the JavaScript Clock on your local machine:
    ```
 3. **Open the `index.html` File:**
    Open the `index.html` file in any modern web browser to start using the clock.
-
-## Project Structure
-
-- **index.html:** Contains the HTML structure and includes links to the CSS and JavaScript files.
-- **styles.css:** Styles the clock and provides a responsive layout.
-- **script.js:** Handles the clock logic, updating the time every second.
 
 ## Technologies Used
 
